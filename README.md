@@ -1,3 +1,44 @@
+![NeoVerse City Simulation — project cover](https://raw.githubusercontent.com/KingAlpha362/KingAlpha362/main/assets/covers/programming.png)
+
+# NeoVerse City Simulation
+
+A console-based C++ city simulation using object-oriented components, STL containers, and event processing.
+
+## ✨ Highlights
+
+- City subsystems model power, transport, health, and security.
+- Sensor readings and historical logs use different container types.
+- Queues and stacks support ordinary events and emergency overrides.
+
+## 🚀 Getting started
+
+With a C++ compiler installed:
+
+```sh
+g++ -std=c++11 main.cpp Engineer.cpp CityData.cpp EventSystem.cpp CityComponent.cpp SystemSimulation.cpp -o neoverse
+./neoverse
+```
+
+On Windows, use `-o neoverse.exe` and launch `.\neoverse.exe`.
+
+## 🗂️ Repository guide
+
+- [CityComponent.cpp](CityComponent.cpp)
+- [CityComponent.h](CityComponent.h)
+- [CityData.cpp](CityData.cpp)
+- [CityData.h](CityData.h)
+- [Engineer.cpp](Engineer.cpp)
+- [Engineer.h](Engineer.h)
+- [EventSystem.cpp](EventSystem.cpp)
+- [EventSystem.h](EventSystem.h)
+
+## 📝 Project notes
+
+An educational simulation. Included engineer credentials and data files are for local practice.
+
+<details>
+<summary>Original container analysis and project references</summary>
+
 # NeoVerse AI City Survival System
 
 ## Overview
@@ -14,10 +55,9 @@ This is a console-based C++ simulation system that manages city data, events, an
    ```
    (On Windows: `neoverse.exe`)
 
-## Sample Login Credentials
-If `engineers.dat` is not found, the system creates the following default users:
-- **Engineer ID**: ENG001, **Password**: password123 (Clearance: High)
-- **Engineer ID**: ENG002, **Password**: pass456 (Clearance: Medium)
+## Local demo accounts
+
+The simulation creates demonstration accounts when its engineer data file is absent. Inspect the local setup code before testing and use disposable lab data.
 
 ## Explanation of Containers Used
 ### 1. Vector for Daily Sensor Readings
@@ -65,3 +105,9 @@ A `std::stack` implements a Last-In-First-Out (LIFO) strategy. This is appropria
 
 # https://www.w3schools.com/cpp/
 # https://www.geeksforgeeks.org/cpp/c-plus-plus/
+
+</details>
+
+---
+
+[← Portfolio](https://github.com/KingAlpha362/KingAlpha362) · [Browse all projects](https://github.com/KingAlpha362/KingAlpha362/blob/main/PORTFOLIO.md)
